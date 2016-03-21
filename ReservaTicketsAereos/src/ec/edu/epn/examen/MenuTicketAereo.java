@@ -179,7 +179,7 @@ public class MenuTicketAereo extends Menu {
 				if(r.getCodigo().equalsIgnoreCase(codigoReserva)){
 					System.out.println("--------/--------/--------/-----");
 					System.out.println("            T I C K E T        ");
-					System.out.println("--------/--------/--------/-----");r
+					System.out.println("--------/--------/--------/-----");
 					System.out.println("CODIGO: "+r.getCodigo()+"\t\tFECHA: "+sdf.format(r.getFecha().getTime()));
 					System.out.println("VUELO: "+r.getVuelo().getCodigo()+"\t\tFECHA: "+sdf.format(r.getFecha().getTime()));
 					List<Pasajero> tmpPasajeros = r.getPasajeros();
